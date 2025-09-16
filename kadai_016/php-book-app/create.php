@@ -35,7 +35,7 @@ if (isset($_POST['submit'])) {
         exit($e->getMessage());
     }
 }
-// セレクトボックスの選択肢として設定するため、仕入先コードの配列を取得する
+// セレクトボックスの選択肢として設定するため、ジャンルコードの配列を取得する
 try {
     $pdo = new PDO($dsn, $user, $password);
 
@@ -94,7 +94,7 @@ try {
                     <label for="stock_quantity">在庫数</label>
                     <input type="number" id="stock_quantity" name="stock_quantity" min="0" max="100000000" required>
 
-                    <label for="genre_code">仕入先コード</label>
+                    <label for="genre_code">ジャンルコード</label>
                     <select id="genre_code" name="genre_code" required>
                         <option disabled selected value>選択してください</option>
                         <?php

@@ -23,7 +23,7 @@
        <article class="home">
            <h1>書籍管理アプリ</h1>
            <p>『PHPとデータベースを連携しよう』成果物</p>
-           <a href="read.php" class="btn">商品一覧</a>
+           <a href="read.php" class="btn">書籍一覧</a>
        </article>
    </main>
    <footer>
